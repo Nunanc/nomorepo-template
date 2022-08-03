@@ -5,3 +5,5 @@ import { add } from './add'
 console.info(`${add(1, 2)}`)
 // eslint-disable-next-line no-console
 console.info(`${reduce(1, 2)}`)
+// eslint-disable-next-line no-console
+console.info(`${reduce(3, 4)}`)
