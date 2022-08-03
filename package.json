@@ -39,8 +39,9 @@
     "vitest": "^0.20.3"
   },
   "lint-staged": {
-    "*.ts": [
-      "pnpm run lint"
+    "packages/**/*.{js,ts}": [
+      "pnpm run lint",
+      "pnpm run test"
     ]
   }
 }
