@@ -1,0 +1,35 @@
+{
+  "name": "pkg1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf lib && rollup -c"
+  },
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "require": "./lib/index.cjs",
+      "import": "./lib/index.mjs"
+    },
+    "./add": {
+      "types": "./lib/add.d.ts",
+      "require": "./lib/add.cjs",
+      "import": "./lib/add.mjs"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./lib/*",
+        "./lib/index.d.ts"
+      ]
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pkg2": "workspace:^1.0.0"
+  }
+}

@@ -1,0 +1,3 @@
+packages:
+  # 包根路径
+  - 'packages/*'
