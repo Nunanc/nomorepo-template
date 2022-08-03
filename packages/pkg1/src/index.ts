@@ -11,3 +11,5 @@ console.info(123)
 console.info(456)
 // eslint-disable-next-line no-console
 console.info(789)
+// eslint-disable-next-line no-console
+console.info(101112)
