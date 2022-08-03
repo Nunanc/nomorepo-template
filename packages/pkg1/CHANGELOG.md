@@ -1,5 +1,13 @@
 # @munan_c-nomorepo_test/pkg1
 
+## 0.1.2
+
+### Patch Changes
+
+- [`37d4a64`](https://github.com/Nunanc/nomorepo-template/commit/37d4a6438ba0137491dff529a012d4918531786c) - test changeset/action2
+
+* [`cadfa9f`](https://github.com/Nunanc/nomorepo-template/commit/cadfa9f1e70cf6a82a2669f322b2cf747094b986) - test changeset/action
+
 ## 0.1.1
 
 ### Patch Changes
