@@ -9,3 +9,5 @@ console.info(`${reduce(1, 2)}`)
 console.info(123)
 // eslint-disable-next-line no-console
 console.info(456)
+// eslint-disable-next-line no-console
+console.info(789)
