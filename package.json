@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "pnpm turbo run build",
-    "test": "vitest packages/"
+    "test": "vitest packages/",
+    "changeset": "changeset add",
+    "changeset-version": "changeset version"
   },
   "keywords": [],
   "author": "",
