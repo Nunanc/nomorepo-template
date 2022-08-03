@@ -42,9 +42,9 @@ importers:
 
   packages/pkg1:
     specifiers:
-      pkg2: workspace:^1.0.0
+      '@munan_c-nomorepo_test/pkg2': workspace:^0.0.1
     dependencies:
-      pkg2: link:../pkg2
+      '@munan_c-nomorepo_test/pkg2': link:../pkg2
 
 packages:
 

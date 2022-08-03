@@ -1,4 +1,4 @@
-import { reduce } from 'pkg2'
+import { reduce } from '@munan_c-nomorepo_test/pkg2'
 import { add } from './add'
 
 // eslint-disable-next-line no-console
