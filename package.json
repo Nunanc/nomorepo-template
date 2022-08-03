@@ -7,7 +7,8 @@
     "build": "pnpm turbo run build",
     "test": "vitest packages/",
     "changeset": "changeset add",
-    "changeset-version": "changeset version"
+    "changeset-version": "changeset version",
+    "release": "changeset publish"
   },
   "keywords": [],
   "author": "",
