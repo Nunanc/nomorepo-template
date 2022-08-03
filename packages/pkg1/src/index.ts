@@ -7,3 +7,5 @@ console.info(`${add(1, 2)}`)
 console.info(`${reduce(1, 2)}`)
 // eslint-disable-next-line no-console
 console.info(123)
+// eslint-disable-next-line no-console
+console.info(456)
