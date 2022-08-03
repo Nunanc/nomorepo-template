@@ -5,10 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build": "pnpm turbo run build",
-    "test": "vitest packages/",
+    "test": "vitest run packages/",
     "changeset": "changeset add",
     "changeset-version": "changeset version",
-    "release": "changeset publish"
+    "release": "changeset publish",
+    "lint": "eslint \"packages/**/*.{js,ts}\"",
+    "lint-fix": "eslint \"packages/**/*.{js,ts}\" --fix",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +27,9 @@
     "esbuild": "^0.14.53",
     "eslint": "^8.21.0",
     "fs-extra": "^10.1.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "pre-commit": "^1.2.2",
     "rimraf": "^3.0.2",
     "rollup": "^2.77.2",
     "rollup-plugin-dts": "^4.2.2",
@@ -31,5 +37,11 @@
     "turbo": "^1.4.2",
     "typescript": "^4.7.4",
     "vitest": "^0.20.3"
+  },
+  "lint-staged": {
+    "packages/**/*.{js,ts}": [
+      "pnpm run lint",
+      "pnpm run test"
+    ]
   }
 }
